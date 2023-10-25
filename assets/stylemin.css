@@ -7,8 +7,9 @@
 .quote,
 .quote__text {
     font-style: italic;
-    font-family: Spectral
+    font-family: Spectral;
 }
+
 
 .quote,
 .quote__author,
