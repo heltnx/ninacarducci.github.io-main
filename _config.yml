@@ -1,5 +1,0 @@
-defaults:
-  - scope:
-      path: ""
-    values:
-      expires: "access plus 1 year"
