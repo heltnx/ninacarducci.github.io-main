@@ -111,6 +111,7 @@ body {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius: 0;
+	text-shadow: 2px 2px 1px black;
 }
 
 .nav-pills .nav-link {
