@@ -34,9 +34,9 @@
 	 <meta property="og:url" content="https://www.instagram.com/ninacarducci.photo/?hl=fr" />
 	 <meta property="og:image" content="https://scontent-cdg4-2.cdninstagram.com/v/t51.2885-19/280078591_443458974206581_3018714247707270483_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_cat=101&_nc_ohc=aL8PmjylNTcAX8ekjnD&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDewYG_HNXiohBd0LjhuwvrD4MUdytemqW3DaMl_tHZeQ&oe=6540BEFE&_nc_sid=8b3546" />
 	 
-	 <link class="css" rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" disabled >
-	 <link class="css" rel="stylesheet" href="./assets/style.min.css" disabled >
-	 <link	class="css" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+	 <link id="css1" rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" disabled >
+	 <link id="css2" rel="stylesheet" href="./assets/style.min.css" disabled >
+	 <link	id="css3" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		    rel="stylesheet" disabled >
 	<title>Ninna Carducci, Photographe Professionnel à Bordeaux</title>
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
@@ -238,7 +238,9 @@
 		</div>
 	</div>
 	<script>
-		document.querySelectorAll(".css").map(element => element.removeAttribute('disabled'));
+		document.querySelector("#css1").setAttribute('disabled', false);
+		document.querySelector("#css2").setAttribute('disabled', false);
+		document.querySelector("#css3").setAttribute('disabled', false);
 	</script>
 </body>
 
