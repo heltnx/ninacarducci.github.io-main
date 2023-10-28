@@ -272,7 +272,7 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-@media all and (max-width: 1180px) {
+@media (max-width: 1180px) {
 	.picture {
 		flex: 2;
 	}
@@ -293,7 +293,7 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 1000px) {
+@media (max-width: 1000px) {
 	#about {
 		flex-direction: column;
 
@@ -360,7 +360,7 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 650px) {
+@media (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
